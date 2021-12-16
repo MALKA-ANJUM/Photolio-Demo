@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photolio(Demo)</title>
+    <link rel="stylesheet" href="photolio.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <div class="menu menuToggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>      
+            <div class="title">
+                <h1>photolio</h1>
+                <p>A template made by w3.css for photographers.</p>
+                <a href="#">Toggle Grid padding</a>
+            </div>
+        </div> 
+        <!-- Sidebar Navigation -->
+        <ul class="navigation">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="image-gallery">
+            <div class="item">
+                <img src="pic-1.jpg" alt="">
+                <img src="pic-2.jpg" alt="">
+                <img src="pic-3.jpg" alt="">
+                <img src="pic-4.jpg" alt="">
+                <img src="pic-5.jpg" alt="">
+                <img src="pic-6.jpg" alt="">
+            </div>   
+            <div class="item">
+                <img src="pic-7.jpg" alt="">
+                <img src="pic-8.jpg" alt="">
+                <img src="pic-9.jpg" alt="">
+                <img src="pic-10.jpg" alt="">
+                <img src="pic-11.jpg" alt="">
+                <img src="pic-12.jpg" alt="">           
+            </div>
+            <div class="item">
+                <img src="pic-13.jpg" alt="">
+                <img src="pic-14.jpg" alt="">
+                <img src="pic-15.jpg" alt="">
+                <img src="pic-16.jpg" alt="">
+                <img src="pic-17.jpg" alt="">
+                <img src="pic-18.jpg" alt="">     
+            </div>
+        </div>
+   
+    </div>          
+       
+    
+    </div>
+    <div class="footer">
+        <div class="social_links">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        
+            <p>
+                Powered by <a href="#">w3.css</a>
+            </p>
+       
+       
+    </div>
+   
+    <script>
+        let menuToggle = document.querySelector('.menuToggle')
+        let body = document.querySelector('.body')
+        let navigation = document.querySelector('.navigation')
+
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+   
+                                                
+</body>
+</html>
